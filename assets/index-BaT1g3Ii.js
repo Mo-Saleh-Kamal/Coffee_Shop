@@ -26,6 +26,18 @@ Error generating stack: `+e.message+`
     color: #333;
     overflow-x: hidden;
   }
+
+
+  html, body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
   img { max-width: 100%; display: block; }
   button { font-family: inherit; cursor: pointer; }
 
