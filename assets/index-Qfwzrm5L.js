@@ -70,7 +70,7 @@ Error generating stack: `+e.message+`
   .scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 4px; transform-origin: 0%; background: linear-gradient(90deg, #d4a373, #c08d5a); z-index: 9998; }
 
   /* ===== Hero ===== */
-  .hero { height: 100vh; height:100dvh,min-height:600px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; text-align: center; }
+  .hero { height: 100vh; height:100svh,min-height:600px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; text-align: center; }
   .hero-bg { position: absolute; inset: -10%; background: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600') center/cover; will-change: transform; }
   .hero-overlay { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(44,24,16,0.85), rgba(0,0,0,0.6)); z-index: 1; }
   .hero-content { position: relative; z-index: 2; max-width: 900px; padding: 0 20px; color: #fff; }
